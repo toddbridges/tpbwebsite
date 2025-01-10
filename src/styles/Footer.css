@@ -1,0 +1,19 @@
+.footer-divs {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    background-color: #ecf0f1;
+
+}
+
+.footer-divs img:hover {
+    transform: scale(1.05);
+}
+
+.footer-div {
+    background-color: #bdc3c7;
+    width: 30%;
+    padding: 2rem;
+    text-align: center;
+    
+}

@@ -1,0 +1,21 @@
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.main-content img {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+.main-content img:hover {
+    transform: scale(1.05);
+}
+
+
+
