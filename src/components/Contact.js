@@ -8,26 +8,17 @@ const Contact = ({ name, email, message }) => {
   };
 
   return (
-    <div>
-      <h1>Contact Us</h1>
-      <form onSubmit={handleSendEmail}>
-        <label>
-          Name:
-          <input type="text" name="name" value={name} readOnly />
-        </label>
-        <br />
-        <label>
-          Email:
-          <input type="email" name="email" value={email} readOnly />
-        </label>
-        <br />
-        <label>
-          Message:
-          <textarea name="message" value={message} readOnly></textarea>
-        </label>
-        <br />
-        <button type="submit">Send Message</button>
-      </form>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+      <div style={{ textAlign: 'center', padding: '20px', backgroundColor: '#f4f4f4', borderRadius: '8px', boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)' }}>
+        <h1>Contact Me</h1>
+        <p>To send a message, click the button below:</p>
+        <button 
+          onClick={handleSendEmail} 
+          style={{ padding: '12px 24px', fontSize: '16px', backgroundColor: '#007BFF', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}
+        >
+          Send Message
+        </button>
+      </div>
     </div>
   );
 };

@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className="footer-div">
             <h3>Todd P Bridges</h3>
-            <p>Copyright &copy; 2025</p>
+            <p>No Copyright needed &copy; 2025</p>
         </div>
         <div className="footer-div">
           <a href="https://tpbridges.infprojects.fhsu.edu/final/about.html"
